@@ -1,12 +1,14 @@
+# NOTE: for versions >= 2.0 (for python 3.5+) see python3-sphinxcontrib-blockdiag.spec
 #
 # Conditional build:
 %bcond_with	tests	# unit tests (missing data)
 %bcond_without	python2 # CPython 2.x module
-%bcond_without	python3 # CPython 3.x module
+%bcond_with	python3 # CPython 3.x module (built from python3-sphinxcontrib-blockdiag.spec)
 
 Summary:	Sphinx "blockdiag" extension
 Summary(pl.UTF-8):	Rozszerzenie "blockdiag" dla Sphinksa
 Name:		python-sphinxcontrib-blockdiag
+# keep 1.x here for python2 support
 Version:	1.5.5
 Release:	1
 License:	BSD
