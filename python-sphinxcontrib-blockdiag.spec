@@ -10,7 +10,7 @@ Summary(pl.UTF-8):	Rozszerzenie "blockdiag" dla Sphinksa
 Name:		python-sphinxcontrib-blockdiag
 # keep 1.x here for python2 support
 Version:	1.5.5
-Release:	1
+Release:	2
 License:	BSD
 Group:		Libraries/Python
 #Source0Download: https://pypi.org/simple/sphinxcontrib-blockdiag/
